@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl:/Adrianacmy.github.io
+exclude:['README.md']
