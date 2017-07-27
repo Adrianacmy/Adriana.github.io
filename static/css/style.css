@@ -460,12 +460,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #education .member h4 {
   font-weight: 400;
   margin-bottom: 2px;
+  font-size: 0.97em;
 }
 
 #education .member span {
   font-style: italic;
   display: block;
-  font-size: 14px;
+    font-size: 0.95em;
 }
 
 /*Footer
