@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(0, 0, 0, 0.22);
+  background: rgba(44, 64, 87, 0.88);
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
