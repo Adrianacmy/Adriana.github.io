@@ -1,0 +1,514 @@
+/* General
+----------------------------------------*/
+body {
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #666666;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+  color: #fc415d;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: rgba(0, 0, 0, 0.22);
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+.back-to-top:focus {
+  background: rgba(0, 0, 0, 0.22);
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: #fc415d;
+  color: #fff;
+}
+
+/*Hero
+------------------------------------*/
+#hero {
+  display: table;
+  width: 100%;
+  height: 68vh;
+  background: url(../img/hero-bg.jpg) top center fixed;
+  background-size: cover;
+}
+
+#hero .hero-text {
+    width: 38%;
+    text-align: left;
+    margin-left: 3em;
+    margin-bottom: 7%;
+    color: white;
+    font-size: 3em;
+     font-family: 'Cinzel', serif;
+}
+#hero .hero-container {
+  background:rgba(0, 0, 0, 0.29);
+  display: table-cell;
+  margin: 0;
+  padding-bottom: 16em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Header
+--------------------------------*/
+#header {
+  background:#2c4057;
+  padding: 6px 0;
+  height: 4.6em;
+}
+
+#header #logo {
+  float: left;
+}
+
+@media (max-width: 768px) {
+  #header {
+    height: 80px;
+  }
+  #header #logo h1 {
+    font-size: 26px;
+  }
+  #header #logo img {
+    max-height: 40px;
+  }
+}
+
+.is-sticky #header {
+  background: rgba(44, 65, 87, 0.72);
+}
+
+/*Navigation Menu
+------------------------------------------*/
+.brand-text {
+    letter-spacing: 0.3em;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+
+
+}
+
+/* Nav Menu Essentials */
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+}
+
+/* Nav Meu Container */
+#nav-menu-container {
+  float: right;
+  margin: 5px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  #nav-menu-container {
+    display: none;
+  }
+}
+
+/* Nav Meu Styling */
+.nav-menu a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  outline: none;
+  letter-spacing: 0.028em;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+  color: #fc415d;
+}
+
+.nav-menu ul {
+  margin: 4px 0 0 15px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu ul li {
+  background: #fff;
+  border-top: 1px solid #f4f4f4;
+}
+
+.nav-menu ul li:first-child {
+  border-top: 0;
+}
+
+.nav-menu ul li:hover {
+  background: #f6f6f6;
+}
+
+.nav-menu ul li a {
+  color: #333;
+}
+
+.nav-menu ul ul {
+  margin: 0;
+}
+
+/* Mobile Nav Toggle */
+#mobile-nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin: 20px 20px 0 0;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+}
+
+#mobile-nav-toggle i {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+/* Mobile Nav Styling */
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.9);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.4s;
+}
+
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#mobile-nav ul li {
+  position: relative;
+}
+
+#mobile-nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+}
+
+#mobile-nav ul li a:hover {
+  color: #fff;
+}
+
+#mobile-nav ul li li {
+  padding-left: 30px;
+}
+
+#mobile-nav ul .menu-has-children i {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+  color: #f2a2de;
+}
+
+#mobile-nav ul .menu-item-active {
+  color: #f2a2de;
+}
+
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+/* Mobile Nav body classes */
+body.mobile-nav-active {
+  overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+  color: #fc415d;
+}
+
+/*Sections
+--------------------------------*/
+/* Sections Common
+--------------------------------*/
+.section-title {
+  font-size: 2em;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.3em;
+}
+
+.section-title-divider {
+  width: 100px;
+  height: 3px;
+  background: #fc415d;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/*About Section
+--------------------------------*/
+#about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#about .about-container {
+  background: url(../img/about2.png) left top no-repeat;
+}
+
+#about .about-content {
+  background: #fff;
+}
+
+#about .about-title {
+  color: #333;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+#about .about-text {
+  line-height: 26px;
+}
+
+#about .about-text:last-child {
+  margin-bottom: 0;
+}
+
+#about .social span a{
+    padding-right: 2.2em;
+    color: #333;
+}
+
+/* Subscribe Section
+--------------------------------*/
+#subscribe {
+  background: linear-gradient(rgba(237, 130, 160, 0.68), rgba(70, 155, 181, 0.6)), url(../img/hire2.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#subscribe .subscribe-title {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#subscribe .subscribe-text {
+  color: #fff;
+}
+
+#subscribe .subscribe-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#subscribe .subscribe-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 0;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#subscribe .subscribe-btn:hover {
+  background: #fc415d;
+  border: 2px solid #fc415d;
+}
+
+
+/* education Section
+--------------------------------*/
+#education {
+  background: #fff;
+   padding: 80px 0 60px 0;
+}
+
+#education .member {
+  text-align: center;
+  margin-bottom: 4.6em;
+}
+
+
+#education .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+
+#education .member .pic img {
+  max-width: 100%;
+}
+
+#education .member h4 {
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+#education .member span {
+  font-style: italic;
+  display: block;
+  font-size: 14px;
+}
+
+/*Footer
+-------------------------------*/
+footer {
+   background:#2c4057;
+   color: #fff;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+footer p  {
+  font-size: 15px;
+  word-spacing: 0.07em;
+  letter-spacing: 0.05em;
+}
+ footer a {
+   color: #fff;
+}
+footer .footer-menu {
+  padding-bottom: 20px;
+}
+footer .footer-menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer .footer-menu ul li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+footer .footer-menu ul li a {
+  display: inline-block;
+}
+footer span{
+  padding: 0px 14px;
+  display: inline-block;
+}
+
+
+/*bootstrap overide
+--------------------------------*/
+.img-thumbnail {
+    border-radius: 0;
+}
+
+
