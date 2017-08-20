@@ -487,11 +487,11 @@ footer span{
 /*Slider
 -------------------------------*/
 #slider {
-  background: url("../img/slider-bg.JPG") no-repeat;
+  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 100px 0 380px 25px;
+  padding: 100px 0 380px 35px;
   position: relative;
 }
 #slider:before {
@@ -513,5 +513,5 @@ footer span{
     margin-bottom: 7%;
     color: white;
     font-size: 2.5em;
-    font-family: 'Cinzel', serif;
+    font-family: 'serif';
 }
