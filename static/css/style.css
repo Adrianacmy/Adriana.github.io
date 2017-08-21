@@ -2,17 +2,17 @@
 ----------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: #e88bda;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #666666;
+  color: #e88bda;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #fc415d;
+  color: #e88bda;
   outline: none;
   text-decoration: none;
 }
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(44, 64, 87, 0.88);
+  background: rgba(60, 93, 64, 0.88);
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #fc415d;
+  background: #e88bda;
   color: #fff;
 }
 
@@ -64,13 +64,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Header
 --------------------------------*/
 #header {
-  background:#2c4057;
+  background:#3c5e3f;
   padding: 6px 0;
   height: 4.6em;
 }
 
 #header #logo {
   float: left;
+  padding-top: 1em;
 }
 
 @media (max-width: 768px) {
@@ -86,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .is-sticky #header {
-  background: rgba(44, 65, 87, 0.72);
+  background: rgba(60, 94, 63, 0.82);
 }
 
 /*Navigation Menu
@@ -119,7 +120,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu li {
   position: relative;
   white-space: nowrap;
-
 }
 
 .nav-menu > li {
@@ -160,13 +160,13 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #fff;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 1.2em;
   outline: none;
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color: #e88bda;
 }
 
 .nav-menu ul {
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li a {
-  color: #333;
+  color: #e88bda;
 }
 
 .nav-menu ul ul {
@@ -274,11 +274,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #03C4EB;
+  color: #fff;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #03C4EB;
+  color: #fff;
 }
 
 #mobile-body-overly {
@@ -330,7 +330,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 100px;
   height: 3px;
-  background: #fc415d;
+  background: #e88bda;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -399,7 +399,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #fc415d;
+  background: #e88bda;
   border: 2px solid #fc415d;
 }
 
@@ -442,7 +442,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*Footer
 -------------------------------*/
 footer {
-   background:#2c4057;
+   background:#3c5e3f;
    color: #fff;
    text-align: center;
    padding-top: 20px;
