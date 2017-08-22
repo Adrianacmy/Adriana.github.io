@@ -1,9 +1,9 @@
 /* General
 ----------------------------------------*/
 body {
-  background: #fff;
-  color: #e88bda;
+  color: #333;
   font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -29,6 +29,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+hr {
+ border: 0.05px dotted #cce0ba;
+}
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -525,3 +528,72 @@ font-family: 'serif';
 margin-right: 2em;
 }
 
+/*posts*/
+#posts{
+  background-color:#e3f4c6;
+}
+
+#posts img {
+    opacity: 0.09;
+    filter: alpha(opacity=9)
+}
+
+
+.italic {
+   font-style: italic;
+   margin-bottom: 4em;
+ }
+
+.bold {
+   font-weight: 800px;
+ }
+
+.center-text {
+   text-align: center;
+ }
+
+.post-area {
+  padding: 40px;
+  width: 100%;
+  min-height: 150px;
+  border-bottom: 1px dotted #999;
+}
+
+.post-area a:link, .post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+
+/*post*/
+/*--
+	wrapper Start
+--*/
+.post {
+    background-color: #e3f4c6;
+}
+#intro {
+  padding: 100px 0;
+}
+#intro .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+#intro .block p {
+  color: #7B7B7B;
+  padding-top: 20px;
+}
+#intro .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#intro .section-title {
+  margin-bottom: 0px;
+}
+#intro .section-title p {
+  padding-top: 20px;
+}

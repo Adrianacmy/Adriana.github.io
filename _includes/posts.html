@@ -1,16 +1,20 @@
 <section id="posts">
-    <div class="container"><hr>
+    <div class="container posts-container"><hr>
         <div class="row">
             <div class="col-md-12">
-              <h3>Projects</h3>
-              <p class="section-description">Some interesting and inspiring projects I built along the way.</p>
+              <h3 class="section-title">All Stories</h3><br>
+              <p class="section-description">Once upon a time, there was a mountain in which there was a temple in which an old monk was telling the story.</p>
             </div>
-          </div>
-
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <img class="img-responsive" alt="yixiu" src="{{ site.baseurl }}/static/img/yixiu.jpg"></img>
+                </div>
+            </div>
+            </div>
 
         {% for post in site.posts %}
         <div class="post-area">
-          <a href="{{ site.baseurl }}{{ post.url}}" class="bold"><h3>{{ post.title }}</h3></a>
+          <a href="{{ site.baseurl }}{{ post.url}}" class="bold">{{ post.title }}</a>
           <p class="post-date">{{ post.date | date_to_long_string }}</p>
           <p>
             {{ post.content | strip_html | truncatewords: 50 }}
