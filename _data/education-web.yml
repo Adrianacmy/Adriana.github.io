@@ -1,45 +1,31 @@
-- title: "INTRODUCTION TO PROBABILITY"
-  order: 1
-  folder: data
-  link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
-  img: "ph1.jpg"
-  status: "100% COMPLETE"
-  content: "A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite."
+- folder: Web
 
 - title: "INTRODUCTION TO PROBABILITY"
-  order: 2
-  folder: data
   link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
   img: "ph1.jpg"
   status: "100% COMPLETE"
-  content: "A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite."
 
 - title: "INTRODUCTION TO PROBABILITY"
-  order: 3
-  folder: data
   link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
   img: "ph1.jpg"
   status: "100% COMPLETE"
-  content: "A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite."
 
 - title: "INTRODUCTION TO PROBABILITY"
-  order: 4
-  folder: data
   link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
   img: "ph1.jpg"
   status: "100% COMPLETE"
-  content: "A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite."
 
 - title: "INTRODUCTION TO PROBABILITY"
-  folder: web
   link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
   img: "ph1.jpg"
   status: "100% COMPLETE"
-  content: "A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite."
 
 - title: "INTRODUCTION TO PROBABILITY"
-  folder: web
   link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
   img: "ph1.jpg"
   status: "100% COMPLETE"
-  content: "A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite."
+
+- title: "INTRODUCTION TO PROBABILITY"
+  link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
+  img: "ph1.jpg"
+  status: "100% COMPLETE"

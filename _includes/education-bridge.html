@@ -7,9 +7,9 @@
   </div>
 
 
-  {% for course in site.data.educaton-bridge %}
-        <div class="col-md-4">
-            <div class="member">
+{% for course in site.data.education-bridge %}
+ <div class="col-md-4">
+     <div class="member">
               <a href={{course.link}}>
                 <div class="pic img-thumbnail"><img src="{{ site.baseurl}}/static/img/{{ course.img}}" alt=""></div>
                     <h4>{{course.title}}</h4>
@@ -17,4 +17,6 @@
               </a>
             </div>
         </div>
-   {% endfor %}
+{% endfor %}
+
+
