@@ -1,0 +1,12 @@
+---
+layout: default
+title: All Posts
+---
+
+<hr>
+{% for post in site.posts %}
+    <h1>{{post.title }}</h1>
+    <p>{{ post.content }}</p>
+
+
+{% endfor %}

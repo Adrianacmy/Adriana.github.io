@@ -24,14 +24,23 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="/index">Home</a></li>
-          <li class="menu-has-children"><a href="/projects">Projects</a>
+          <li class="menu-has-children"><a href="{{ site.baseurl }}/projects/">Projects</a>
              <ul>
-              <li><a href="#">Blogz</a></li>
+              <li><a href="{{ site.baseurl}}/posts/">Blogz</a></li>
               <li><a href="#">Plantshop</a></li>
               <li><a href="#">Techjobs</a></li>
             </ul>
           </li>
-          <li class="menu-has-children"><a href="/blogs">Blog</a>
+
+           <li class="menu-has-children"><a href="{{ site.baseurl }}/education/">Education</a>
+             <ul>
+              <li><a href="{{ site.baseurl}}/posts/">Blogz</a></li>
+              <li><a href="#">Plantshop</a></li>
+              <li><a href="#">Techjobs</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-has-children"><a href="{{ site.baseurl }}/posts/">Blog</a>
             <ul>
               <li><a href="#">Web Development</a></li>
               <li><a href="#">Data Science</a></li>
