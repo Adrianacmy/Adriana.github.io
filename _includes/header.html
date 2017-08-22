@@ -24,7 +24,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="/index">Home</a></li>
-          <li class="menu-has-children"><a href="{{ site.baseurl }}/projects/">Projects</a>
+          <li class="menu-has-children"><a href="{{ site.baseurl }}/#projects">Projects</a>
              <ul>
              {% for project in site.data.projects %}
               <li><a href="{{ project.link }}">{{ project.title }}</a></li>
@@ -32,34 +32,16 @@
             </ul>
           </li>
 
-           <li class="menu-has-children"><a href="{{ site.baseurl }}/education/">Education</a>
+           <li class="menu-has-children"><a href="{{ site.baseurl }}/#education">Education</a>
              <ul>
-             {% for education in site.data.education-bridge %}
-                 {% if education.folder %}
-                    <li><a href="{{ education.link }}">{{ education.folder }}</a></li>
-                 {% endif %}
-             {% endfor %}
-              {% for education in site.data.education-data %}
-                  {% if education.folder %}
-                      <li><a href="{{ education.link }}">{{ education.folder }}</a></li>
-                   {% endif %}
-             {% endfor %}
-              {% for education in site.data.education-web %}
-                 {% if education.folder %}
-                    <li><a href="{{ education.link }}">{{ education.folder }}</a></li>
-                 {% endif %}
-             {% endfor %}
+                <li><a href="{{ site.baseurl }}/#bridge">Bridge</a></li>
+                <li><a href="{{ site.baseurl }}/#web">Web</a></li>
+                <li><a href="{{ site.baseurl }}/#data">Data</a></li>
             </ul>
           </li>
 
-          <li class="menu-has-children"><a href="{{ site.baseurl }}/posts/">Blog</a>
-            <ul>
-              {% for cate in site.categories %}
-              <li><a href="{{ site.baseurl}}/posts/{{ cate }}">{{ cate }}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-          <li class="menu-has-children"><a href="{{ site.baseurl}}/cv/">Me</a>
+          <li class="menu-has-children"><a href="{{ site.baseurl }}/#posts">Blog</a></li>
+          <li class="menu-has-children"><a href="{{ site.baseurl}}/cv">Me</a>
             <ul>
               <li><a href="{{ site.baseurl }}/cv/">Resume</a></li>
             </ul>

@@ -411,35 +411,35 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* education Section
 --------------------------------*/
-#education {
+#education #projects{
   background: #fff;
    padding: 80px 0 60px 0;
 }
 
-#education .member {
+.member {
   text-align: center;
   margin-bottom: 4.6em;
   color: #000
 }
 
 
-#education .member .pic {
+.member .pic {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
 }
 
-#education .member .pic img {
+.member .pic img {
   max-width: 100%;
 }
 
-#education .member h4 {
+.member h4 {
   font-weight: 400;
   margin-bottom: 2px;
   font-size: 0.97em;
 }
 
-#education .member span {
+.member span {
   font-style: italic;
   display: block;
   font-size: 0.95em;
