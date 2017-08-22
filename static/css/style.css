@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #e88bda;
+  color: #333;
   transition: 0.5s;
 }
 
@@ -194,7 +194,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu ul ul {
   margin: 0;
 }
-
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
@@ -271,6 +270,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
   cursor: pointer;
   color: #fff;
+  font-size: 1em;
+  font-weight: 400px;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
@@ -325,6 +326,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   margin-bottom: 40px;
   font-size: 1.3em;
+  color: #333;
 }
 
 .section-title-divider {
@@ -345,7 +347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-content {
   background: #fff;
   font-family: monospace;
-  color: purple;
+  color: #c64170;
   margin-left: 0.1;
 
 }
@@ -358,12 +360,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 3em;
 }
 
+.social a {
+    color: #000;
+}
 
 
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(237, 130, 160, 0.68), rgba(70, 155, 181, 0.6)), url(../img/hire2.jpg) fixed center center;
+  background: linear-gradient(rgba(20, 80, 50, 0.58), rgba(60, 94, 63, 0.6)), url(../img/hire2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
