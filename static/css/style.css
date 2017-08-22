@@ -368,7 +368,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(20, 80, 50, 0.58), rgba(60, 94, 63, 0.6)), url(../img/hire2.jpg) fixed center center;
+  background: linear-gradient(rgba(60, 94, 64, 0.58), rgba(60, 94, 63, 0.6)), url(../img/hire2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -405,7 +405,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe .subscribe-btn:hover {
   background: #e88bda;
-  border: 2px solid #fc415d;
+  border: 2px solid #e88bda;
 }
 
 
@@ -419,6 +419,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #education .member {
   text-align: center;
   margin-bottom: 4.6em;
+  color: #000
 }
 
 
@@ -441,7 +442,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #education .member span {
   font-style: italic;
   display: block;
-    font-size: 0.95em;
+  font-size: 0.95em;
 }
 
 /*Footer
