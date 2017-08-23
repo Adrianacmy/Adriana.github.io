@@ -21,7 +21,7 @@
        </div>
 
         <div id="web">
-            {% for course in site.data.education-web %}
+            {% for course in site.data.education.web %}
                 <div class="col-md-4">
                     <div class="member">
                       <a href={{course.link}}>
@@ -44,7 +44,7 @@
         </div>
 
         <div id="data">
-          {% for course in site.data.education-data %}
+          {% for course in site.data.education.data-science %}
                 <div class="col-md-4">
                     <div class="member">
                       <a href={{course.link}}>
@@ -66,7 +66,7 @@
           </div>
 
         <div id="bridge">
-        {% for course in site.data.education-bridge %}
+        {% for course in site.data.education.bridge %}
              <div class="col-md-4">
                  <div class="member">
                       <a href={{course.link}}>
