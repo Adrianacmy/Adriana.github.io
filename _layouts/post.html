@@ -15,6 +15,15 @@ layout: page
             </div>
             <hr />
             <p>{{ content }}</p>
+
+            {% assign tagsize = page.tags.size %}
+                    {% if tagsize != 0 %}
+                    <div class="entry-tags text-center">
+
+                        <i class="icon-tags"></i>&nbsp;Tagged with {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}
+
+                    </div>
+                    {% endif %}
           </div>
         </div><!-- .col-md-7 close -->
       </div>

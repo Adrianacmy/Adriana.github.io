@@ -29,3 +29,9 @@ markdown: kramdown
 # gems:
 #   - jekyll-feed
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md' ]
+
+links:
+  - name: web
+    url: /posts/web
+  - name: data
+    url: /posts/data
