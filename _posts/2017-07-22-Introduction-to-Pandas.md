@@ -3,6 +3,7 @@ layout: post
 category: data
 tags: [data, python,pandas, test]
 comments: true
+author: Admin
 ---
 <span style="font-family: Arial; font-size:3.75em;color:purple; font-style:bold">
 Pandas</span>

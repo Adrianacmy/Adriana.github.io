@@ -3,6 +3,8 @@ layout: post
 category: data
 tags: [data, python,numpy, test]
 comments: true
+author: Admin
+
 ---
 
 <span style="font-family: Arial; font-size:3.75em;color:purple; font-style:bold"><br>

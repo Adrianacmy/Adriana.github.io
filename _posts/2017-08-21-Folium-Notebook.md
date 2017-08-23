@@ -3,6 +3,8 @@ layout: post
 category: data
 tags: [data, python,folium, test]
 comments: true
+author: Admin
+
 ---
 Data Source: https://www.kaggle.com/worldbank/world-development-indicators <br> Folder: 'world-development-indicators'
 

@@ -3,6 +3,8 @@ layout: post
 category: data
 tags: [data, python,numpy,img analysis]
 comments: true
+author: Admin
+
 ---
 <p style="font-family: Arial; font-size:3.75em;color:purple; font-style:bold"><br>
 Satellite Image Data Analysis using numpy</p>

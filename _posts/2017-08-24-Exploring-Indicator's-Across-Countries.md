@@ -3,6 +3,7 @@ layout: post
 category: data
 tags: [data, python,numpy, test, indicator]
 comments: true
+author: Admin
 ---
 
 ```python

@@ -27,6 +27,11 @@ layout: page
           </div>
         </div><!-- .col-md-7 close -->
       </div>
+        <div class="row">
+
+        {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+
+        </div>
     </div>
   </section>
 </div>

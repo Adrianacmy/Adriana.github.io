@@ -3,6 +3,7 @@ layout: post
 category: data
 tags: [data, python,matplotlib, test, data-science]
 comments: true
+author: Admin
 ---
 
 ```python

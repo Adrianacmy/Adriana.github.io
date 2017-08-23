@@ -3,6 +3,7 @@ layout: post
 category: data
 tags: [data, python,unix, jupyter]
 comments: true
+author: Admin
 ---
 # UNIX Commands for Data Scientists
 

@@ -8,3 +8,4 @@
   <!-- Template Specisifc Custom Javascript File -->
   <script src="{{ site.baseurl }}/static/js/custom.js"></script>
 <!---->
+    {% if page.comments %}{% include disqus_comments.html %}{% endif %}
