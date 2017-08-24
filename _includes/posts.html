@@ -17,7 +17,7 @@
                 {% assign tags_list = site.tags %}
                   {% if tags_list.first[0] == null %}
                     {% for tag in tags_list %}
-                        <li><a href="#{{ tag }}">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+					<li><a href="{{site.baseurl}}/tags/index#{{ tag }}">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
 			        {% endfor %}
                   {% else %}
 
