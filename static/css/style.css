@@ -698,3 +698,10 @@ margin-right: 2em;
     font-size:2em;
     font-weight: 400px;
 }
+
+/**
+  disqus
+*/
+.disqus_thread {
+    margin-bottom: 1.5em;
+}
