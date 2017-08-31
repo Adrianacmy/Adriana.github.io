@@ -702,6 +702,7 @@ margin-right: 2em;
 /**
   disqus
 */
-.disqus_thread {
-    margin-bottom: 1.5em;
+#disqus_thread {
+    margin-top: 10em;
+
 }
