@@ -374,6 +374,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(rgba(60, 94, 64, 0.58), rgba(60, 94, 63, 0.6)), url(../img/hire2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
+  margin-bottom: 2.5em;
 }
 
 #subscribe .subscribe-title {
@@ -437,15 +438,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .member h4 {
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 2px;
-  font-size: 0.97em;
+  font-size: 1.1em;
 }
 
 .member span {
   font-style: italic;
   display: block;
-  font-size: 0.95em;
+  font-size: 0.9em;
+  font-weight: 500;
 }
 
 /*Footer

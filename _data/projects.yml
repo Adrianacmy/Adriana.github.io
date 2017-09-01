@@ -1,15 +1,15 @@
-- title: "Blogz"
+- title: "Php"
   folder: projects
-  link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
-  img: "ph3.jpg"
-  source: "github.com/adrianacmy/blogz"
-  key-words: "Python, Flask, Sqlalchemy"
+  link: "http://venusgrape.com"
+  img: "project-venusgrape.png"
+  source: "https://github.com/adrianacmy/adrianacmy.github.io"
+  key-words: "Jekyll, Gh-pages"
 
 - title: "Blogz"
   folder: projects
-  link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
-  img: "ph3.jpg"
-  source: "github.com/adrianacmy/blogz"
+  link: "https://pure-wave-56142.herokuapp.com/"
+  img: "project-blogz.png"
+  source: "https://github.com/adrianacmy/blogz"
   key-words: "Python, Flask, Sqlalchemy"
 
 - title: "Blogz"
