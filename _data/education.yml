@@ -3,7 +3,7 @@ bridge:
   - title: "Introduction To Probability"
     link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
     img: "course-possibility-edx.png"
-    Status: "20% Complete"
+    Status: "20"
 
   - title: "Intro To Comptuer Science"
     link: "https://www.udacity.com/course/intro-to-computer-science--cs101?utm_medium=referral&utm_campaign=api"
@@ -23,12 +23,12 @@ bridge:
   - title: "INTRODUCTION TO PROBABILITY"
     link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
     img: "ph3.jpg"
-    Status: "100% COMPLETE"
+    Status: "100"
 
   - title: "INTRODUCTION TO PROBABILITY"
     link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
     img: "ph3.jpg"
-    Status: "100% COMPLETE"
+    Status: "100"
 
 
 data-science:
@@ -60,36 +60,36 @@ data-science:
   - title: "IA/B Testing by google"
     link: "https://www.udacity.com/course/ab-testing--ud257"
     img: "course-data-abtest.png"
-    Status: "100% COMPLETE"
+    Status: "100"
 
 web:
-  - title: "INTRODUCTION TO PROBABILITY"
-    link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
-    img: "ph1.jpg"
-    Status: "100% COMPLETE"
+  - title: "Lc101 & Java Skill Track"
+    link: "https://www.launchcode.org"
+    img: "course-lc.png"
+    Status: "90"
+
+  - title: "GitHub & Collaboration"
+    link: "https://www.udacity.com/course/github-collaboration--ud456"
+    img: "course-github.png"
+    Status: "100"
 
   - title: "INTRODUCTION TO PROBABILITY"
     link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
     img: "ph1.jpg"
-    Status: "100% COMPLETE"
+    Status: "100"
 
   - title: "INTRODUCTION TO PROBABILITY"
     link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
     img: "ph1.jpg"
-    Status: "100% COMPLETE"
+    Status: "100"
 
   - title: "INTRODUCTION TO PROBABILITY"
     link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
     img: "ph1.jpg"
-    Status: "100% COMPLETE"
+    Status: "100"
 
   - title: "INTRODUCTION TO PROBABILITY"
     link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
     img: "ph1.jpg"
-    Status: "100% COMPLETE"
-
-  - title: "INTRODUCTION TO PROBABILITY"
-    link: "https://www.class-central.com/mooc/1496/edx-introduction-to-probability-the-science-of-uncertainty"
-    img: "ph1.jpg"
-    Status: "100% COMPLETE"
+    Status: "100"
 

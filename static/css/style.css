@@ -322,12 +322,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
-  margin-bottom: 0.2em;
+  padding-top: 1em;
 }
 
 .section-description {
   text-align: center;
-  margin-bottom: 40px;
+  margin: 2.2em 0 2.2em 0;
   font-size: 1.3em;
   color: #333;
 }
@@ -340,11 +340,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
+
 /*About Section
 --------------------------------*/
 #about {
   background: #fff;
-  padding: 60px 0 30px 0;
+  padding: 60px 0 10px 0;
 }
 
 #about .about-content {
@@ -373,11 +374,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subscribe {
   background: linear-gradient(rgba(60, 94, 64, 0.58), rgba(60, 94, 63, 0.6)), url(../img/hire2.jpg) fixed center center;
   background-size: cover;
-  padding: 80px 0;
+  padding: 120px 0 80px 0;
+  height: 35vh;
   margin-bottom: 2.5em;
 }
 
-#subscribe .subscribe-title {
+#subscribe h3 {
   color: #fff;
   font-size: 2em;
   font-weight: 600;
@@ -385,6 +387,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe .subscribe-text {
   color: #fff;
+  font-size: 1.5em;
 }
 
 #subscribe .subscribe-btn-container {
@@ -415,9 +418,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* education Section
 --------------------------------*/
-#education #projects{
+#education, #projects{
   background: #fff;
-   padding: 80px 0 60px 0;
+   padding: 10px 0 70px 0;
 }
 
 .member {
@@ -707,4 +710,8 @@ margin-right: 2em;
 #disqus_thread {
     margin-top: 10em;
 
+}
+.cv {
+    background-color: #e3f4c6;
+    z-index: -1;
 }
