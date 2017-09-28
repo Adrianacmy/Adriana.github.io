@@ -43,7 +43,6 @@ author: Admin
 ### Run Locally
 ```
 $ bundle exec jekyll serve
-$ bundle exec jekyll serve --drafts # Serve articles in drafts folder
 ```
 ### Updating
 ```
