@@ -458,36 +458,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 footer {
    background:#3c5e3f;
    color: #fff;
-   text-align: center;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding: 1em 0;
+
 }
-footer p  {
-  font-size: 15px;
-  word-spacing: 0.07em;
-  letter-spacing: 0.05em;
-}
+
  footer a {
    color: #fff;
 }
-footer .footer-menu {
-  padding-bottom: 20px;
+footer p {
+    word-spacing: 0.07em;
+    letter-spacing: 0.07em;
 }
-footer .footer-menu ul {
-  margin: 0px;
-  padding: 0px;
-}
-footer .footer-menu ul li {
-  display: inline-block;
-  padding: 0px 12px;
-}
-footer .footer-menu ul li a {
-  display: inline-block;
-}
-footer span{
-  padding: 0px 14px;
-  display: inline-block;
-}
+
+/* Self-intro
+--------*/
+#me {
+    background-color: #4b6d49;
+    padding: 4em 0;
+    color: #fff;
+    font-size: 1.3em;
+  }
 
 
 /*bootstrap overide
@@ -537,10 +527,15 @@ margin-right: 2em;
 #posts, #tags, #cv{
   background-color:#e3f4c6;
 }
+#cv img{
+     opacity: 0.069;
+     filter: alpha(opacity=695)
 
+}
 #posts img {
     opacity: 0.09;
     filter: alpha(opacity=9)
+
 }
 
 .more {
