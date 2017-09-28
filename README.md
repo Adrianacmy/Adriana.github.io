@@ -48,3 +48,11 @@ $ bundle exec jekyll serve
 ```
 $ bundle update
 ```
+### Credits
+##### Js credits on this site go to below libs' authors:
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js
+https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.4/superfish.min.js
+https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.min.js
+https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js
