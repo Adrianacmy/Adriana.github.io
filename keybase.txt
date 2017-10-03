@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/venusgrape
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://venusgrape.com
+  * I am venusgrape (https://keybase.io/venusgrape) on keybase.
+  * I have a public key ASB34zFYGmBpKX1m_dt6IAOIMtwAUX3KpRHqoCW1vga0Rwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b5745a8c3c369a7ca9b941981c39da7d985b4b9abe7096e626dcbd5d2879bab10a",
+      "host": "keybase.io",
+      "kid": "012077e331581a6069297d66fddb7a20038832dc00517dcaa511eaa025b5be06b4470a",
+      "uid": "e7b7c324e27c0e0463767b35a2511619",
+      "username": "venusgrape"
+    },
+    "merkle_root": {
+      "ctime": 1507061856,
+      "hash": "40ed16563a090a924057a67fe0f017580dc78480bdc7781218bbc285631e4345035474cefb3a448a8d7dc2dccafd2a558bf829f6f9b93bed3c819d1c48f13ec3",
+      "hash_meta": "c76e9bd1c118b09d7ea033ec71cbaa3edec0a7efe0ec487a510888057df60346",
+      "seqno": 1491005
+    },
+    "service": {
+      "hostname": "venusgrape.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507061946,
+  "expire_in": 504576000,
+  "prev": "c4419d439dfdbad1ba07eb6fbd035b359c023a33bac2f5af26d54eb5f80ec38c",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgd+MxWBpgaSl9Zv3beiADiDLcAFF9yqUR6qAltb4GtEcKp3BheWxvYWTFA0h7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjU3NDVhOGMzYzM2OWE3Y2E5Yjk0MTk4MWMzOWRhN2Q5ODViNGI5YWJlNzA5NmU2MjZkY2JkNWQyODc5YmFiMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzdlMzMxNTgxYTYwNjkyOTdkNjZmZGRiN2EyMDAzODgzMmRjMDA1MTdkY2FhNTExZWFhMDI1YjViZTA2YjQ0NzBhIiwidWlkIjoiZTdiN2MzMjRlMjdjMGUwNDYzNzY3YjM1YTI1MTE2MTkiLCJ1c2VybmFtZSI6InZlbnVzZ3JhcGUifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDcwNjE4NTYsImhhc2giOiI0MGVkMTY1NjNhMDkwYTkyNDA1N2E2N2ZlMGYwMTc1ODBkYzc4NDgwYmRjNzc4MTIxOGJiYzI4NTYzMWU0MzQ1MDM1NDc0Y2VmYjNhNDQ4YThkN2RjMmRjY2FmZDJhNTU4YmY4MjlmNmY5YjkzYmVkM2M4MTlkMWM0OGYxM2VjMyIsImhhc2hfbWV0YSI6ImM3NmU5YmQxYzExOGIwOWQ3ZWEwMzNlYzcxY2JhYTNlZGVjMGE3ZWZlMGVjNDg3YTUxMDg4ODA1N2RmNjAzNDYiLCJzZXFubyI6MTQ5MTAwNX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ2ZW51c2dyYXBlLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDcwNjE5NDYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYzQ0MTlkNDM5ZGZkYmFkMWJhMDdlYjZmYmQwMzViMzU5YzAyM2EzM2JhYzJmNWFmMjZkNTRlYjVmODBlYzM4YyIsInNlcW5vIjoxNCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDJhx3k9YltjwmIZ4wXU/wxpAPqoxOObc2Wpf5GCA8o0BE2ZLdJPh+P/zsInyUbZIg6zmtHuNdvL5Sh2uYyG48BqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgpmj4gDv+JNp14yIb9zLN8MMz74rFSeijvvILNdlT2uSjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/venusgrape
+
+==================================================================
