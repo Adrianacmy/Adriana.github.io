@@ -420,10 +420,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #education, #projects{
   background: #fff;
+   padding: 10px 0 70px 0;
 }
 
 .member {
   text-align: center;
+  margin-bottom: 4.6em;
   color: #000
 }
 
