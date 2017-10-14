@@ -1,3 +1,11 @@
+- title: "Pianos_admin"
+  folder: projects
+  link: "http://adrianacmy.pythonanywhere.com"
+  img: "geolocation.png"
+  source: "https://github.com/pianopushplay/admin_ui"
+  key-words: "flask, python"
+
+
 - title: "Php"
   folder: projects
   link: "http://venusgrape.com"
