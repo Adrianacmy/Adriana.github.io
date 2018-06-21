@@ -1,5 +1,7 @@
 # Adriana.github.io
 
+V2.0
+
 ## [setup sass with create-react-app with eject](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)
 
 - install the command-line interface for Sass:`npm install --save node-sass-chokidar`
