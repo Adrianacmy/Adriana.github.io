@@ -28,5 +28,4 @@ yarn-debug.log*
 yarn-error.log*
 
 
-src/**/*.scss
-src/scss
+*.scss

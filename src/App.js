@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import img1 from './imgs/1.jpg';
 import './App.css';
+import MarkdownTest from './components/posts_list';
 
 class App extends Component {
     componentDidMount(){
@@ -28,6 +29,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         
+        <MarkdownTest />
 
       </div>
     );
