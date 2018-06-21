@@ -1,8 +1,8 @@
 import  M from 'materialize-css/dist/js/materialize.js';
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import img1 from './imgs/1.jpg';
-import MarkdownTest from './components/posts_list';
+// import MarkdownTest from './components/posts_list';
 
 class App extends Component {
     componentDidMount(){
@@ -35,13 +35,13 @@ class App extends Component {
         <ul id='dropdown1' class='dropdown-content'>
           <li><a href="#!">one</a></li>
           <li><a href="#!">two</a></li>
-          <li class="divider" tabindex="-1"></li>
+          <li className="divider" tabindex="-1"></li>
           <li><a href="#!">three</a></li>
-          <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-          <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+          <li><a href="#!"><i className="material-icons">view_module</i>four</a></li>
+          <li><a href="#!"><i className="material-icons">cloud</i>five</a></li>
         </ul>
         
-        <MarkdownTest />
+        {/* <MarkdownTest /> */}
 
       </div>
     );

@@ -45,7 +45,7 @@ class PostsList extends Component{
     return (
       
       <ul className="collection">
-
+        fdafdaf
         { this.renderPosts() }
 
       </ul>

@@ -37,7 +37,7 @@ ReactDOM.render(
         <Switch>
           {/* <Route path="/posts/new" component={PostsNew} /> */}
           {/* <Route path="/posts/:id" component={PostsDetail} /> */}
-          <Route path="/posts" component={PostsList} />
+          <Route path="/posts" component={ PostsList } />
           <Route path="/" component={App} />
         </Switch>
       </div>
