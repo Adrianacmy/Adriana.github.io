@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 // import { connect } from 'react-redux';
 import { connect } from 'react-redux';
-
+import { Link } from 'react-router-dom';
 
 // import ReactMarkdown from 'react-markdown;
 import { fetchPosts } from '../actions';
 
 import _ from 'lodash';
-
 
 // class MarkdownPost extends Component{
 //   render(){
