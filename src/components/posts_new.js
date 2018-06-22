@@ -2,29 +2,65 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import $ from 'jquery';
 
 import { createPost } from '../actions';
+import M from 'materialize-css/dist/js/materialize.js';
 
-class PostsNew extends React.Component{
+class PostsNew extends React.Component {
 
-  renderField (field){
-    const className = `form-group ${field.meta.touched && field.meta.error ? 'has-danger' : '' }`; 
+  componentDidMount(){
+
+    $('#textarea1').val('New Text');
+    M.textareaAutoResize($('#textarea1'));
+       
+    // document.addEventListener('DOMContentLoaded', function() {
+    //   var elems = document.querySelector('#textarea1');
+    //   elems.value = 'Content';
+    //   // $('#textarea1').val('New Text');
+    //   var instances = M.textareaAutoResize(elems, {});
+    //   // M.textareaAutoResize($('#textarea1'));
+    // });
+
+  
+  }
+
+  renderTextArea(field) {
+    const className = `input-field ${field.meta.touched && field.meta.error ? 'red lighten-2' : ''}`;
     return (
       <div className={className}>
-        <input 
-        type="text"
-        className="form-control"
-        placeholder={field.placeholder}
-        {...field.input}
-        />
-        <div className="text-help">
+        <textarea
+          placeholder="Content"
+          className="materialize-textarea"
+          rows="40"
+          cols="40" 
+          {...field.input}
+          />
+        <div className="helper-text">
           {field.meta.touched ? field.meta.error : ''}
         </div>
       </div>
     );
   }
 
-  onSubmit(values){
+  renderField(field) {
+    const className = `input-field ${field.meta.touched && field.meta.error ? 'red lighten-2' : ''}`;
+    return (
+      <div className={className}>
+        <input
+          type="text"
+          className="form-control"
+          placeholder={field.placeholder}
+          {...field.input}
+        />
+        <div className="helper-text">
+          {field.meta.touched ? field.meta.error : ''}
+        </div>
+      </div>
+    );
+  }
+
+  onSubmit(values) {
     // this ==== component
     // console.log(values);
     this.props.createPost(values, () => {
@@ -32,26 +68,27 @@ class PostsNew extends React.Component{
     });
   }
 
-  render(){
+  render() {
 
-    const {handleSubmit} = this.props;
+    const { handleSubmit } = this.props;
 
     return (
       <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-        <Field 
+        <Field
           placeholder="Title"
           name="title"
           component={this.renderField}
         />
-        <Field 
+        <Field
           placeholder="Categories"
           name="categories"
           component={this.renderField}
         />
-         <Field 
+        <Field
           placeholder="Content"
           name="content"
-          component={this.renderField}
+          component={this.renderTextArea}
+          id="textarea1"
         />
         <button className="btn btn-primary">Submit</button>
         <Link to="/" className="btn btn-danger">Cancel</Link>
@@ -60,18 +97,18 @@ class PostsNew extends React.Component{
   }
 }
 
-function validate_post(values){
+function validate_post(values) {
   const errors = {};
 
-  if(!values.title){
+  if (!values.title) {
     errors.title = "Enter a title";
   }
 
-  if(!values.categories){
+  if (!values.categories) {
     errors.categories = "Enter a category";
   }
 
-  if(!values.content){
+  if (!values.content) {
     errors.content = "Enter some content";
   }
 
