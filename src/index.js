@@ -22,8 +22,8 @@ import App from './App';
 // import ReactDOM from 'react-dom';
 
 
-// import  PostsNew  from './components/posts_new';
-// import  PostsDetail  from './components/posts_detail';
+import  PostsNew  from './components/posts_new';
+import  PostsDetail  from './components/posts_detail';
 
 // import App from './components/app';
 
@@ -35,8 +35,8 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
         <Switch>
-          {/* <Route path="/posts/new" component={PostsNew} /> */}
-          {/* <Route path="/posts/:id" component={PostsDetail} /> */}
+          <Route path="/posts/new" component={PostsNew} />
+          <Route path="/posts/:id" component={PostsDetail} />
           <Route path="/posts" component={ PostsList } />
           <Route path="/" component={App} />
         </Switch>

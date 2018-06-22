@@ -1,59 +1,46 @@
-import React, { Component } from 'react';
-// import { connect } from 'react-redux';
+import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-// import ReactMarkdown from 'react-markdown;
-import { fetchPosts } from '../actions';
-
 import _ from 'lodash';
 
-// class MarkdownPost extends Component{
-//   render(){
+import { fetchPosts } from '../actions';
 
-// const input = '# This is a header\n\nAnd this is a paragraph';
-// return (
-//   <ReactMarkdown source={input} />
-// )
 
-//   }
-// }
+class PostsList extends React.Component {
 
-// export default MarkdownTest
-
-class PostsList extends Component{
-
-  componentDidMount(){
+  componentDidMount() {
     this.props.fetchPosts();
   }
 
-  renderPosts(){
+
+  renderPosts() {
     return _.map(this.props.posts, post => {
-
-      const className = `${post.title} ? 'collection-item' : ''`;
-
+      const className = `${ post.title ? 'list-group-item' : '' }`;
       return (
-          <li key={post.id} className={ className } >
-            { post.title }
-          </li>
-        );
+        <li key={post.id} className={className}>
+          <Link to={`/posts/${post.id}`}>{post.title}</Link>
+        </li>
+      );
     });
   }
 
-  render(){
+  render() {
+    console.log(this.props.posts);
     return (
-      
-      <ul className="collection">
-        fdafdaf
-        { this.renderPosts() }
-
-      </ul>
-            
-    );
+      <div>
+        <div className="text-xs-right">
+          <Link to="/posts/new" className="btn btn-success">
+            Add a post
+          </Link>
+        </div>
+        <h3>Posts</h3>
+        <ul className="list-group">
+          {this.renderPosts()}
+        </ul>
+      </div>);
   }
 }
-
-
 
 function mapStateToProps(state) {
   return { posts: state.posts };
