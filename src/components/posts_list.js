@@ -7,6 +7,10 @@ import _ from 'lodash';
 import { fetchPosts } from '../actions';
 
 
+
+
+
+
 class PostsList extends React.Component {
 
   componentDidMount() {
@@ -21,6 +25,8 @@ class PostsList extends React.Component {
         <li key={post.id} className={className}>
           <Link to={`/posts/${post.id}`}>{post.title}</Link>
         </li>
+
+        
       );
     });
   }
@@ -29,11 +35,11 @@ class PostsList extends React.Component {
     console.log(this.props.posts);
     return (
       <div>
-        <div className="text-xs-right">
+        {/* <div className="text-xs-right">
           <Link to="/posts/new" className="btn btn-success">
             Add a post
           </Link>
-        </div>
+        </div> */}
         <h3>Posts</h3>
         <ul className="list-group">
           {this.renderPosts()}

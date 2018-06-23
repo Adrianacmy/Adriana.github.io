@@ -4,14 +4,26 @@ import React, { Component } from 'react';
 // import img1 from './imgs/1.jpg';
 // import MarkdownTest from './components/posts_list';
 
+import './index.css';
+
+
+import Navbar from './components/navbar';
+import NameTag from './components/nametag';
+import Slider from './components/slider';
+import PostsIndex from './components/postsIndex';
+import Sidebar from './components/sidebar';
+
+
 class App extends Component {
     componentDidMount(){
       document.addEventListener('DOMContentLoaded', function() {
-        // init carousel
         var elems = document.querySelectorAll('.dropdown-trigger');
         var instances = M.Dropdown.init(elems, {});
 
-        // M.AutoInit();
+        var instance2 = M.Carousel.init({
+          fullWidth: true
+        });
+
         // init Modal
         // var elemsM = document.querySelectorAll('.modal');
         // var instance2 = M.Modal.init(elemsM, {});
@@ -20,30 +32,20 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo responsive-img" alt="logo" /> */}
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-
-        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
-
-        <ul id='dropdown1' class='dropdown-content'>
-          <li><a href="#!">one</a></li>
-          <li><a href="#!">two</a></li>
-          <li className="divider" tabindex="-1"></li>
-          <li><a href="#!">three</a></li>
-          <li><a href="#!"><i className="material-icons">view_module</i>four</a></li>
-          <li><a href="#!"><i className="material-icons">cloud</i>five</a></li>
-        </ul>
-        
-        {/* <MarkdownTest /> */}
-
+      <div>
+        <Navbar />
+        <NameTag />
+        <Slider />
+        <div className="main container">
+          <div className="posts">
+            <PostsIndex />
+          </div>
+          <div className="sidebar">
+            <Sidebar />
+          </div>
+          
       </div>
+     </div>
     );
   }
 }
