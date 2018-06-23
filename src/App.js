@@ -12,7 +12,7 @@ import NameTag from './components/nametag';
 import Slider from './components/slider';
 import PostsIndex from './components/postsIndex';
 import Sidebar from './components/sidebar';
-
+import Footer from './components/footer';
 
 class App extends Component {
     componentDidMount(){
@@ -23,6 +23,10 @@ class App extends Component {
         var instance2 = M.Carousel.init({
           fullWidth: true
         });
+
+        var elems3 = document.querySelectorAll('.sidenav');
+        var instances3 = M.Sidenav.init(elems3, {});
+
 
         // init Modal
         // var elemsM = document.querySelectorAll('.modal');
@@ -47,6 +51,7 @@ class App extends Component {
         </div>
           
       </div>
+      <Footer />
      </div>
     );
   }
