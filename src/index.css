@@ -6606,69 +6606,103 @@ nav {
   margin: 3rem auto 2.3rem;
   height: 55vh; }
 
-.main {
+.main hr {
+  margin: 3.2rem auto 0.9rem auto;
+  color: #f8f8f8;
+  text-align: left; }
+
+.main .card {
+  box-shadow: none;
+  border-radius: none; }
+
+.main h5 + p {
+  letter-spacing: 0.01rem;
+  color: grey;
+  margin: 1.5rem auto; }
+
+.main .readmore {
+  font-size: 1.1rem;
+  letter-spacing: 1.8px; }
+  .main .readmore strong {
+    font-weight: 500;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    padding: 0 1rem; }
+
+.main .card-title {
+  font-style: bold;
+  color: grey; }
+  .main .card-title hr {
+    margin: 1.3rem auto 2rem auto;
+    width: 10%;
+    size: 10px;
+    color: #ba68c8; }
+
+.main .category, .main .recentposts, .main .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 3rem;
+  margin-bottom: 3.8rem;
+  border: none; }
+  .main .category a, .main .recentposts a, .main .social a {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem; }
+  .main .category div hr, .main .recentposts div hr, .main .social div hr {
+    margin-top: 2rem;
+    margin-bottom: 2.8rem;
+    width: 20%;
+    color: #ba68c8;
+    margin-left: 0; }
+
+.main .recentposts div hr {
+  width: 23%; }
+
+.main .sidebar {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: auto;
-  justify-content: space-around;
-  align-items: center;
-  grid-row-gap: auto;
-  grid-column-gap: 1rem; }
-  .main hr {
-    margin: 3.2rem auto 0.9rem auto;
-    color: #f8f8f8;
-    text-align: left; }
-  .main .card {
-    box-shadow: none;
-    border-radius: none; }
-  .main h5 + p {
-    letter-spacing: 0.01rem;
-    color: grey;
-    margin: 1.5rem auto; }
-  .main .readmore {
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    letter-spacing: 1.8px; }
-    .main .readmore strong {
-      font-weight: 500;
-      border-left: 3px solid grey;
-      border-right: 3px solid grey;
-      padding: 0 1rem; }
-  .main .card-title {
-    font-style: bold;
-    color: grey; }
-    .main .card-title hr {
-      margin: 1.3rem auto 2rem auto;
-      width: 10%;
-      size: 10px;
-      color: #ba68c8; }
-  .main .category {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-transform: uppercase;
-    border-top: none;
-    border-left: none;
-    border-right: none; }
-  .main .sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; }
+  grid-row-gap: 5rem; }
+
+.main .socialicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .main .socialicon a .fab {
+    align-self: center;
+    justify-self: center; }
 
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: 13px; }
   .carousel {
     margin: 3rem auto 1.5rem;
     height: 50vh; }
-  .main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-content: space-around;
-    align-items: center;
-    grid-row-gap: 1.5rem; }
-    .main hr {
-      width: 100%;
-      margin-bottom: 3rem;
-      color: #f8f8f8; } }
+  .main hr {
+    width: 100%;
+    margin-bottom: 3rem;
+    color: #f8f8f8; }
+  .main .category, .main .recentposts, .main .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: auto 0 2rem 0; }
+    .main .category h6, .main .category hr, .main .recentposts h6, .main .recentposts hr, .main .social h6, .main .social hr {
+      text-align: center;
+      margin-top: 1.8rem;
+      margin-bottom: 3.6rem; }
+    .main .category a, .main .recentposts a, .main .social a {
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem; }
+    .main .category div hr, .main .recentposts div hr, .main .social div hr {
+      margin: 1rem auto 0 auto;
+      width: 20%;
+      color: #ba68c8; }
+  .main .category div hr {
+    margin-top: 1rem;
+    width: 17%;
+    color: #ba68c8; } }

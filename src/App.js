@@ -37,12 +37,14 @@ class App extends Component {
         <NameTag />
         <Slider />
         <div className="main container">
-          <div className="posts">
+        <div className="row">
+          <div className="posts col s12 m8">
             <PostsIndex />
           </div>
-          <div className="sidebar">
+          <div className="sidebar col s12 m4">
             <Sidebar />
           </div>
+        </div>
           
       </div>
      </div>
