@@ -8,17 +8,25 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div className="socialicon">
-      <a href="#!"><i class="fa fa-github fa-4x"></i></a>
-      <a href="#!"><i class="fa fa-github fa-4x"></i></a>
-      <a href="#!"><i class="fa fa-github fa-4x"></i></a>
-      <a href="#!"><i class="fa fa-github fa-4x"></i></a>
-      </div>
-        <div className="copyright">
-        &copyright; Adrianacmy 2018 &nbsp;
-        
+      
+        <div className="who">
+          <div className="container">
+            <p>I am a software developer, specilized in Python and Javascript.</p>
+            <p>To discuss a particular project, please contact me at iamadrianachen@gmail.com</p>
+            <p>I am always willing to learn new things, currently I am exploring Blockchain development.</p>
+          </div>
         </div>
 
+        <div className="socialicon container">
+          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
+          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
+          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
+          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
+        </div>
+
+        <div className="copyright container">
+            &copy; Adrianacmy &nbsp;2018
+        </div>
       </footer>
 
 

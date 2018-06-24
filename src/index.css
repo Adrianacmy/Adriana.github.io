@@ -6659,7 +6659,7 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  margin: 0 auto 3.8rem 2rem;
+  margin: 0 auto 5.8rem 2rem;
   border: none; }
   .main .category a, .main .recentposts a, .main .social a {
     border-bottom: 1px solid #e6e6e6;
@@ -6677,7 +6677,7 @@ nav {
 
 .main .sidebar {
   display: grid;
-  grid-row-gap: 5rem; }
+  grid-row-gap: 6rem; }
 
 .main .socialicon {
   display: flex;
@@ -6688,17 +6688,30 @@ nav {
     justify-self: center; }
 
 footer {
-  background-color: #f0f0f0;
-  height: 36vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  margin-top: 5rem;
+  font-weight: 600;
+  background-color: #eeeeee; }
+  footer .who {
+    padding: 10rem 0 15rem 0;
+    width: 100%;
+    height: 21vh;
+    background-color: #faf4fb;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 7vh;
+    align-items: center; }
+    footer .who p {
+      justify-self: center;
+      margin: 2rem auto; }
+    footer .who p:nth-child(2) {
+      margin-bottom: 5rem; }
   footer .socialicon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 3rem; }
+    padding: 3rem 0 3rem 0; }
+    footer .socialicon a {
+      margin-right: 1.8rem; }
+  footer .copyright {
+    padding: 1rem 0 5rem 0;
+    font-size: 0.9rem; }
 
 .sidenav-trigger {
   float: left;
