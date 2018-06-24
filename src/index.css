@@ -6586,6 +6586,22 @@ nav {
     nav ul a:hover {
       background-color: #fff;
       color: #ba68c8; }
+  nav .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  nav form {
+    margin-left: 5rem;
+    border-bottom: 1px solid #e3e3e3;
+    color: #212121 !important; }
+    nav form .material-icons {
+      margin-right: 1.3rem;
+      font-size: 2.5rem; }
+    nav form .search-form {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
 
 .description {
   font-family: 'Montserrat', sans-serif;
@@ -6697,6 +6713,9 @@ footer {
 @media only screen and (max-width: 992px) {
   body {
     font-size: 13px; }
+  nav form .material-icons {
+    margin-right: 1.3rem;
+    font-size: 1.9rem; }
   .carousel {
     margin: 3rem auto 1.5rem;
     height: 50vh; }

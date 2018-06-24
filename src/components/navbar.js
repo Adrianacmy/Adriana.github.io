@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import '../index.css';
+import Search from './search';
+
 
 class Navbar extends Component{
   render(){
@@ -12,7 +13,8 @@ class Navbar extends Component{
         <li className="divider"></li>
         <li><a href="#!">three</a></li>
       </ul>
-      <nav className="white">
+      
+      <nav className="white row">
         <div className="nav-wrapper">
           <div className="container">
           <ul className="left hide-on-small-and-down">
@@ -20,16 +22,15 @@ class Navbar extends Component{
             <li><a href="sass.html">project</a></li>
             <li><a href="sass.html">blog</a></li>
             <li><a href="sass.html">contact</a></li>
-           
           </ul>
-         
+          <Search />
           </div>
         </div>
       </nav>
 
 
-       <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
+       <ul id="slide-out" className="sidenav">
+    <li><div className="user-view">
       {/* <div class="background">
         <img src="images/office.jpg"/>
       </div> */}
@@ -37,13 +38,13 @@ class Navbar extends Component{
       <a href="#name">PROJECT</a>
       <a href="#email">BLOG</a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!"><i className="material-icons">cloud</i>First Link With Icon</a></li>
     <li><a href="#!">Second Link</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><div className="divider"></div></li>
+    <li><a className="subheader">Subheader</a></li>
+    <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
   </ul>
-  <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
+  <a href="#" data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
         
 
 
