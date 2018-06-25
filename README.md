@@ -17,7 +17,9 @@ PHPV2.0 Jun 24, 2018
 
 ## Known Bugs
 
+- Havn't do anything to make image responsive yet
 - @_@
+
 
 ## Technologies Used
 
