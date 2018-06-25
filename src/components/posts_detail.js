@@ -4,6 +4,10 @@ import { fetchPost, deletePost } from '../actions';
 import { Link } from 'react-router-dom';
 
 
+import Navbar from './navbar';
+import NameTag from './nametag';
+import Footer from './footer';
+
 // const ReactMarkdown = require('react-markdown')
 import ReactMarkdown from 'react-markdown';
 
@@ -44,12 +48,17 @@ class PostsDetail extends Component {
     return (
      
       <div>
+         <Navbar />
+        <NameTag />
         <Link className="btn btn-success" to="/posts/">Back to Post Index</Link>
         <button className="btn btn-danger pull-xs-right" onClick={this.onDeleteClick.bind(this)}>Delet Post</button>
         <h3>{post.title}</h3>
         <h6>categories: {post.categories}</h6>
        
         <ReactMarkdown source={post.content} />
+
+      <Footer />
+
       </div>
     );
   }

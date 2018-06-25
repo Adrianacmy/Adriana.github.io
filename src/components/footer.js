@@ -18,10 +18,10 @@ class Footer extends Component {
         </div>
 
         <div className="socialicon container">
-          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
-          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
-          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
-          <a href="#!"><i class="fa fa-github fa-4x"></i></a>
+          <a href="#!"><i class="fa fa-github fa-3x"></i></a>
+          <a href="#!"><i class="fa fa-github fa-3x"></i></a>
+          <a href="#!"><i class="fa fa-github fa-3x"></i></a>
+          <a href="#!"><i class="fa fa-github fa-3x"></i></a>
         </div>
 
         <div className="copyright container">

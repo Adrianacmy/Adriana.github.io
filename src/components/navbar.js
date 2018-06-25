@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import Search from './search';
 
+import { Link } from 'react-router-dom';
+
+
 
 class Navbar extends Component{
   render(){
@@ -18,9 +21,9 @@ class Navbar extends Component{
         <div className="nav-wrapper">
           <div className="container">
           <ul className="left hide-on-small-and-down">
-            <li><a href="sass.html">home</a></li>
-            <li><a href="sass.html">project</a></li>
-            <li><a href="sass.html">blog</a></li>
+            <li><a href="sass.html"><Link to='/'>home</Link></a></li>
+            <li><a href="sass.html"><Link to='/PostsDetails'>project</Link></a></li>
+            <li><a href="sass.html"><Link to='/'>blog</Link></a></li>
             <li><a href="sass.html">contact</a></li>
           </ul>
           <Search />
@@ -34,15 +37,15 @@ class Navbar extends Component{
       {/* <div class="background">
         <img src="images/office.jpg"/>
       </div> */}
-      <a href="#user">HOME</a>
-      <a href="#name">PROJECT</a>
-      <a href="#email">BLOG</a>
+      {/* <a href="#user">HOME</a> */}
+      {/* <a href="#name">PROJECT</a> */}
+      <a href="#email">Adrianacmy</a>
     </div></li>
-    <li><a href="#!"><i className="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
+    <li><a href="#!"><i className="material-icons">cloud</i>Home</a></li>
+    <li><a href="#!">Blog</a></li>
     <li><div className="divider"></div></li>
-    <li><a className="subheader">Subheader</a></li>
-    <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><a className="subheader">Project</a></li>
+    <li><a className="waves-effect" href="#!">Contact</a></li>
   </ul>
   <a href="#" data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
         

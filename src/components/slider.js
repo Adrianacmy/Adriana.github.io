@@ -13,8 +13,10 @@ class Slider extends React.Component{
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.carousel');
       let instance3 = M.Carousel.init(elems, {
-        fullWidth: true
+        fullWidth: true,
+        noWrap: false
       });
+      
       
     });
   }

@@ -8,24 +8,17 @@ import promise from 'redux-promise';
 import reducers from './reducers';
 
 import PostsList from './components/posts_list';
+import postsIndex from './components/postsIndex';
+// import PostsDetails from './components/postsDetail';
 
 import './index.css';
 import App from './App';
 
-// import registerServiceWorker from './registerServiceWorker';
-
-// ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
-
-
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-
 
 import  PostsNew  from './components/posts_new';
-import  PostsDetail  from './components/posts_detail';
+// import  PostsDetail  from './components/posts_detail';
+import  PostsDetailsFake from './components/postsDetail';
 
-// import App from './components/app';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
@@ -36,8 +29,10 @@ ReactDOM.render(
       <div>
         <Switch>
           <Route path="/posts/new" component={PostsNew} />
-          <Route path="/posts/:id" component={PostsDetail} />
+          {/* <Route path="/posts/:id" component={PostsDetail} /> */}
           <Route path="/posts" component={ PostsList } />
+          <Route path="/PostsDetails" component={ PostsDetailsFake } />
+          <Route path="/postsIndex" component={ postsIndex } />
           <Route path="/" component={App} />
         </Switch>
       </div>

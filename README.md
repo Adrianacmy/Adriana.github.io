@@ -1,5 +1,36 @@
 # Adriana.github.io
 
+PHPV2.0 Jun 24, 2018
+
+
+
+## Description
+
+- Personal home page
+
+## Setup/Installation Requirements
+
+- Clone refactor-react branch of this repository .
+
+- `npm install`
+- `npm start`
+
+## Known Bugs
+
+- @_@
+
+## Technologies Used
+
+- React
+- Redux
+- material design
+- css
+
+
+<hr/>
+
+## Below instruction is personal refer for sass setup
+
 ## [setup sass with create-react-app with eject](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)
 
 - install the command-line interface for Sass:`npm install --save node-sass-chokidar`
@@ -17,7 +48,7 @@
 ```
 
 - rename `src/App.css` to `src/App.scss`
-- run `npm run watch-css`
+
 - in order to run `watch-css` and `npm start` parallelly
 
  ```bash

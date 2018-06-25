@@ -6542,7 +6542,7 @@ html {
 
 body {
   color: #212121 !important;
-  font-family: 'Lora', serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 0.1rem; }
 
@@ -6581,7 +6581,7 @@ nav {
     color: #1c202a;
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 1.8px; }
     nav ul a:hover {
       background-color: #fff;
@@ -6604,11 +6604,10 @@ nav {
       align-items: center; }
 
 .description {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   margin-top: 0.9px;
   letter-spacing: 1px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Lora', 'serif', sans-serif;
   text-align: center; }
 
 .nametag {
@@ -6689,6 +6688,7 @@ nav {
 
 footer {
   margin-top: 5rem;
+  font-size: 1.3em;
   font-weight: 600;
   background-color: #eeeeee; }
   footer .who {
