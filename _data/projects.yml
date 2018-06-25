@@ -1,6 +1,6 @@
 - title: "Pianos_admin"
   folder: projects
-  link: "http://adrianacmy.pythonanywhere.com"
+  link: "https://github.com/pianopushplay/admin_ui"
   img: "geolocation.png"
   source: "https://github.com/pianopushplay/admin_ui"
   key-words: "flask, python"
@@ -8,7 +8,7 @@
 
 - title: "Php"
   folder: projects
-  link: "http://venusgrape.com"
+  link: "http://adrianawritescode.com/"
   img: "project-venusgrape.png"
   source: "https://github.com/adrianacmy/adrianacmy.github.io"
   key-words: "Jekyll, Gh-pages"
