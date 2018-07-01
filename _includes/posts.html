@@ -1,62 +1,62 @@
 <section id="posts">
-    <div class="container posts-container"><hr>
-        <div class="row">
-            <div class="col-md-12">
-              <h3 class="section-title">All Stories</h3><br>
-              <p class="section-description">Once upon a time, there was a mountain in which there was a temple in which an old monk was telling the stories.</p>
-            </div>
-
-             <div class="row">
-                {% for cate in links %}
-                <button class="btn btn-default">{{cate.name}}</button>
-                {% endfor %}
-            </div>
-
-            <div class="row">
-                <ul class="tag-box inline">
-                {% assign tags_list = site.tags %}
-                  {% if tags_list.first[0] == null %}
-                    {% for tag in tags_list %}
-					<li><a href="{{site.baseurl}}/tags/index#{{ tag }}">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
-			        {% endfor %}
-                  {% else %}
-
-                    {% for tag in tags_list %}
-                    <li><a href="{{site.baseurl}}/tags/index#{{ tag[0] }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
-                    {% endfor %}
-                  {% endif %}
-                {% assign tags_list = nil %}
-                </ul>
-            </div>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <img class="img-responsive" alt="yixiu" src="{{ site.baseurl }}/static/img/yixiu.jpg"></img>
-                </div>
-            </div>
-            </div>
+  <div class="container posts-container ">
+    <hr>
+    <div class="row">
+      <div class="col s12">
+        <h3 class="center">All Posts</h3>
+        <br>
+        <p class="center">Once upon a time, there was a mountain in which there was a temple in which an old monk was telling the stories.</p>
+      </div>
 
 
-
-        {% for post in site.posts limit:6 %}
-        <div class="post-area">
-          <a href="{{ site.baseurl }}{{ post.url}}" class="bold">{{ post.title }}</a>
-          <p class="post-date">{{ post.date | date_to_long_string }}</p>
-          <p>
-            {{ post.content | strip_html | truncatewords: 50 }}
-          </p>
-        </div>
+      <div class="row center">
+        {% for cate in links %}
+        <button class="btn center">{{cate.name}}</button>
         {% endfor %}
+      </div>
+      <ul class="tag-box">
+        {% assign tags_list = site.tags %} {% if tags_list.first[0] == null %} {% for tag in tags_list %}
+        <li>
+          <a href="{{site.baseurl}}/tags/index#{{ tag }}">{{ tag }}
+            <span>{{ site.tags[tag].size }}</span>
+          </a>
+        </li>
+        {% endfor %} {% else %} {% for tag in tags_list %}
+        <li>
+          <a href="{{site.baseurl}}/tags/index#{{ tag[0] }}">{{ tag[0] }}
+            <span>{{ tag[1].size }}</span>
+          </a>
+        </li>
+        {% endfor %} {% endif %} {% assign tags_list = nil %}
+      </ul>
 
-        <div class="row">
-            <div class="col-md-11"></div>
-            <div class="col-md-1 more">
-                <a href="{{site.baseurl}}/tags/index">
-                    <i class="em em-angel"></i>
-                    <i>More</i>
-                </a>
-            </div>
+      <div class="row center">
+        <div class="col-md-8 col-md-offset-2">
+          <img class="responsive-img " alt="yixiu" src="{{ site.baseurl }}/static/images/yixiu.jpg"></img>
         </div>
-
+      </div>
     </div>
+
+
+
+    {% for post in site.posts limit:6 %}
+    <div class="post-area">
+      <a href="{{ site.baseurl }}{{ post.url}}" class="bold">{{ post.title }}</a>
+      <p class="post-date">{{ post.date | date_to_long_string }}</p>
+      <p>
+        {{ post.content | strip_html | truncatewords: 50 }}
+      </p>
+    </div>
+    {% endfor %}
+
+    <div class="row">
+      <div class="col s12 center">
+        <a href="{{site.baseurl}}/tags/index">
+          <i class="em em-angel"></i>
+          <i class="material-icons btn-floating btn-large waves-effect waves-light green lighten-1 center">more</i>
+        </a>
+      </div>
+    </div>
+
+  </div>
 </section>

@@ -49,6 +49,7 @@ $ bundle exec jekyll serve
 $ bundle update
 ```
 ### Credits
+
 ##### Js credits on this site go to below libs' authors:
 - [jquery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js)
 - [bootstrap](https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js)

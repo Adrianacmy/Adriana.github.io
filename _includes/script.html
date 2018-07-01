@@ -1,10 +1,30 @@
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.4/superfish.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var sidenav = document.querySelectorAll('.sidenav');
+      var instancesSidenav = M.Sidenav.init(sidenav, {});
+
+      var sliders = document.querySelectorAll('.slider');
+      var instancesSlider = M.Slider.init(sliders, {
+        indicators: false,
+        height: 400,
+        transition: 500,
+        interval: 6000
+      });
+
+      var mb = document.querySelectorAll('.materialboxed');
+      var instanceMb = M.Materialbox.init(mb, {});
+
+      const ss = document.querySelectorAll('.scrollspy');
+      M.ScrollSpy.init(ss, {});
+
+
+    });
+  </script>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <!-- Template Specisifc Custom Javascript File -->
   <script src="{{ site.baseurl }}/static/js/custom.js"></script>
 <!---->

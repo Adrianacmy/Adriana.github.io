@@ -1,0 +1,71 @@
+body{
+  color: #424242; 
+  font-family: sans-serif;
+
+}
+a{
+  color: #424242;
+}
+a:hover{
+  color: #00c853;
+
+}
+#projects {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#projects h4{
+  margin-bottom: 4rem;
+}
+.section-about{
+  /* padding: 3rem 0 0.5rem 0; */
+  font-size: 1.1rem !important;
+  width: 100% !important;
+  border: #f4f4f4 3px solid;
+}
+#about{
+  padding-top: 4rem;
+}
+#about img{
+  width: 290px;
+  height:280px;
+  /* width: 50%; */
+}
+.section-follow{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.section-follow .fa-4x{
+  margin: 5px 3px;
+}
+
+#journal{
+  padding-top: 6rem;
+  margin-bottom: 5rem;
+}
+#journal h4{
+  margin-bottom: 5rem;
+}
+
+nav li a{
+  font-size: 1.3rem;
+}
+
+footer{
+ padding: 4rem 0;  
+}
+
+#contact{
+  padding-top: 5rem;
+  padding-bottom: 4.5rem;
+  
+}
+
+.tag-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
