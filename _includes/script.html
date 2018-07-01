@@ -25,7 +25,5 @@
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-  <!-- Template Specisifc Custom Javascript File -->
-  <script src="{{ site.baseurl }}/static/js/custom.js"></script>
-<!---->
-    {% if page.comments %}{% include disqus_comments.html %}{% endif %}
+
+  {% if page.comments %}{% include disqus_comments.html %}{% endif %}
