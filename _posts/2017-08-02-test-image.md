@@ -7,4 +7,4 @@ author: Admin
 
 ---
 
-![img](static/images/blur3.jpg)
+![img]({{site.baseurl}}/static/images/blur3.jpg)

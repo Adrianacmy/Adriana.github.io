@@ -131,7 +131,7 @@ hr {
 
 .italic {
    font-style: italic;
-   margin-bottom: 4em;
+   margin-bottom: 2em;
  }
 
 .bold {
@@ -271,11 +271,12 @@ hr {
     text-transform: capitalize;
 }
 /* @media only screen and (min-width:48em) */
-.on-small-and-down{
-    .post-list .entry-date {
-        display: inline;
-    }
-}
+/* .on-small-and-down{
+  .post-list .entry-date {
+      display: inline;
+  }
+
+} */
 
 .tags-posts {
     margin: 2em 0;
