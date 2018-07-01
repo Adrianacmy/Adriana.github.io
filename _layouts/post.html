@@ -14,7 +14,7 @@ layout: page
               <p class="italic center">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
             <hr />
-            <p>{{ content }}</p>
+            <p class="post-content">{{ content }}</p>
 
             {% assign tagsize = page.tags.size %}
               {% if tagsize != 0 %}

@@ -107,9 +107,9 @@ hr {
   margin-bottom: 0;
 }
 #posts{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: 0.09rem;
-  word-spacing: 0.13rem;
+  word-spacing: 0.15rem;
 }
 #cv img{
      opacity: 0.069;
@@ -166,6 +166,7 @@ hr {
     background-color: #e3f4c6;
 }
 
+
 #intro {
   padding: 100px 0;
 }
@@ -175,11 +176,11 @@ hr {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
-  font-size: 1.3rem;
+  /* color: #7B7B7B; */
+  padding-top: 0.6rem;
+  font-size: 1.26rem;
   letter-spacing: 0.09rem;
-  word-spacing: 0.13rem;
+  word-spacing: 0.15rem;
 }
 #intro .block img {
   padding-left: 40px;
