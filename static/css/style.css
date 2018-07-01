@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  /* color: #333; */
+  color: #333;
   transition: 0.5s;
 }
 
@@ -216,6 +216,7 @@ hr {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    color: 
 }
 
 .tag-box a span {

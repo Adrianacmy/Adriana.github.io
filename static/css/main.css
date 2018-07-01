@@ -3,8 +3,8 @@ body{
   font-family: sans-serif;
 
 }
-a{
-  color: #424242;
+footer a{
+  color: white;
 }
 a:hover{
   color: #00c853;
@@ -52,7 +52,10 @@ nav li a{
 }
 
 footer{
- padding: 4rem 0;  
+ padding-top: 7rem;
+ padding-bottom: 4rem;  
+ font-size: 1.2rem;
+ letter-spacing: 0.2rem;
 }
 
 #contact{
