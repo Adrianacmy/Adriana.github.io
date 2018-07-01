@@ -9,7 +9,7 @@ layout: page
       <div class="row">
         <div>
           <div class="block">
-            <h1 class="center">{{ page.title }}</h1>
+            <h3 class="center">{{ page.title }}</h3>
             <div class="post-info-wrapper">
               <p class="italic center">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
@@ -17,13 +17,11 @@ layout: page
             <p>{{ content }}</p>
 
             {% assign tagsize = page.tags.size %}
-                    {% if tagsize != 0 %}
-                    <div class="entry-tags text-center">
-
-                        <i class="icon-tags"></i>&nbsp;Tagged with {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}
-
-                    </div>
-                    {% endif %}
+              {% if tagsize != 0 %}
+              <div class="entry-tags text-center">
+                <i class="icon-tags"></i>&nbsp;Tagged with {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}
+              </div>
+              {% endif %}
           </div>
         </div><!-- .col-md-7 close -->
       </div>

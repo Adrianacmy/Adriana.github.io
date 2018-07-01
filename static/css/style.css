@@ -106,6 +106,11 @@ hr {
   padding-bottom: 3rem;
   margin-bottom: 0;
 }
+#posts{
+  font-size: 1.3rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.13rem;
+}
 #cv img{
      opacity: 0.069;
      filter: alpha(opacity=695)
@@ -160,6 +165,7 @@ hr {
 .post {
     background-color: #e3f4c6;
 }
+
 #intro {
   padding: 100px 0;
 }
@@ -171,6 +177,9 @@ hr {
 #intro .block p {
   color: #7B7B7B;
   padding-top: 20px;
+  font-size: 1.3rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.13rem;
 }
 #intro .block img {
   padding-left: 40px;
@@ -216,7 +225,6 @@ hr {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    color: 
 }
 
 .tag-box a span {
@@ -262,8 +270,8 @@ hr {
     font-size: 14px;
     text-transform: capitalize;
 }
-
-@media only screen and (min-width:48em) {
+/* @media only screen and (min-width:48em) */
+.on-small-and-down{
     .post-list .entry-date {
         display: inline;
     }
