@@ -64,3 +64,7 @@ author: Admin
 - html
 - materializecss
 - CSS
+
+## TODO
+
+- Add a smart code syntax highlighter
