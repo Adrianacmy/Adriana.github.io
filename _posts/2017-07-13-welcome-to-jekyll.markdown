@@ -20,6 +20,7 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
+
 {% endhighlight %}
 
 {% highlight python %}

@@ -3,13 +3,12 @@ body{
   font-family: sans-serif;
 
 }
-footer a{
-  color: white;
-}
+
 a:hover{
   color: #00c853;
 
 }
+
 #projects {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -36,7 +35,7 @@ a:hover{
   padding-top: 6rem;
   margin-bottom: 5rem;
 }
-#journal h4{
+#about h4{
   margin-bottom: 5rem;
 }
 
@@ -44,11 +43,17 @@ nav li a{
   font-size: 1.3rem;
 }
 
-footer{
+#footer a{
+  color: greenyellow;
+}
+
+#footer{
+  position: static;
  padding-top: 7rem;
  padding-bottom: 4rem;  
  font-size: 1.2rem;
  letter-spacing: 0.2rem;
+ margin-bottom: -10rem;
 }
 
 #contact{
@@ -70,6 +75,7 @@ footer{
 #img404
 {
   margin: 6rem auto;
+
 }
 
 .sidenav{
@@ -83,7 +89,7 @@ footer{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 0% 0%;
-	padding: 0 0 280 0;
+	/* padding: 0 0 0 0; */
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -113,6 +119,7 @@ footer{
 #home_header .action-button{
   width: 80vw;
  
+
 }
 .action-button .navbutton{
   margin-top: 1rem;
