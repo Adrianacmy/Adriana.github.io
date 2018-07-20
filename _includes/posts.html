@@ -38,7 +38,7 @@
 
 
 
-    {% for post in site.posts limit:6 %}
+    {% for post in site.posts limit:8 %}
     <div class="post-area">
       <a href="{{ site.baseurl }}{{ post.url}}" class="bold">{{ post.title }}</a>
       <p class="post-date">{{ post.date | date_to_long_string }}</p>
