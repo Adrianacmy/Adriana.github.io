@@ -67,4 +67,7 @@ author: Admin
 
 ## TODO
 
-- Add a smart code syntax highlighter
+- [Y] Add a smart code syntax highlighter: 
+
+- [N] Fix footer
+

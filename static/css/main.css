@@ -48,12 +48,11 @@ nav li a{
 }
 
 #footer{
-  position: static;
- padding-top: 7rem;
- padding-bottom: 4rem;  
- font-size: 1.2rem;
- letter-spacing: 0.2rem;
- margin-bottom: -10rem;
+  padding-top: 7rem;
+  padding-bottom: 4rem;  
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: -10rem;
 }
 
 #contact{

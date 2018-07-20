@@ -10,7 +10,3 @@ author: Admin
 ![img]({{site.baseurl}}/static/images/blur3.jpg)
 
 
-- ERD: entity relationship diagram mentioned in this post
-
-![diagram]({{site.baseurl}}/static/images/tables.png)
-

@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Postgresql Revisit part-one"
+title:  "Postgresql Revisit Part One"
 date:   2017-07-13 15:43:01 -0700
 categories: sql
 tags: [welcome]
@@ -143,13 +143,3 @@ contains 'ana' or 'Ana', but it doesn't contain 'eana'.
 
  {% endhighlight %}
 
-
-Derived column
-
-{% highlight sql %}
-
-  SELECT id, account_id, 
-        poster_amt_usd/(standard_amt_usd + gloss_amt_usd + poster_amt_usd) AS post_per
-  FROM orders;
-
-{% endhighlight %}
