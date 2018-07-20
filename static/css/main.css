@@ -108,7 +108,9 @@ nav li a{
 #home_header .container{
   position: absolute;
   margin-left: 15vw;
+  /* margin: 0 auto; */
   margin-top: 10vh;
+  width: 80vw;
 
   
 }
