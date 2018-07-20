@@ -112,8 +112,8 @@ nav li a{
 
   
 }
-#home_header .flow-text{
-  width: 56vw;
+#home_header .flow-text, #home_header h5{
+  width: 58vw;
 }
 #home_header .action-button{
   width: 80vw;
