@@ -4,7 +4,7 @@ layout: post
 title:  "Postgresql Revisit Part One"
 date:   2017-07-13 15:43:01 -0700
 categories: sql
-tags: [welcome]
+tags: [sql]
 comments: true
 author: Admin
 
