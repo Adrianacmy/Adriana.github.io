@@ -23,7 +23,16 @@ pre {
   page-break-inside: avoid;
 }
 
+.highlight {
+  margin-bottom: 1.5em;
+  border: 1px solid #dedede;
+}
 
+.highlight pre {
+  position: relative;
+  padding: 1em;
+  margin: 0;
+}
 
 
 .highlight .hll { background-color: #ffffcc }
